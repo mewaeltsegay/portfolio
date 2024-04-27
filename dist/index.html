@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mewael Tsegay</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" rel="stylesheet"> -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="min-h-screen overflow-hidden bg-slate-50 dark:bg-black dark:text-white">
+        <header class="text-white sticky top-0 z-10">
+            <section class="bg-black font-myfont max-w-4xl mx-auto p-4 flex justify-between items-center">
+                <h1 class="text-3xl font-medium"> 
+                    <a href="#hero">
+                        <div class="flex flex-row">
+                            <span class="text-6xl">👨🏽‍💻</span>
+                            <div class="flex flex-col justify-center items-center font-mono w-50 text-sm text-left">
+                                <span class="font-heroFont font-thin text-3xl mt-3">Mewael Tsegay</span>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </h1>
+                <div>
+                    <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
+                        &#9776;
+                    </button>
+                    <nav class="hidden sm:block space-x-4 text-sm text-sky-500" aria-lable="main">
+                        <a href="#" class="hover:opacity-50">
+                            >Home
+                        </a>
+                        <a href="#" class="hover:opacity-50">
+                            >Skills
+                        </a>
+                        <a href="#" class="hover:opacity-50">
+                            >Contact Me
+                        </a>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <div class="h-screen z-0 max-w-4xl p-4 mx-auto flex flex-col">
+            <div id="terminal" class="w-full h-3/4 pb-10">
+                <div id="ter-header" class="rounded-t-md min-w-full bg-zinc-800 min-h-10 pl-2 pt-2 pr-3 scroll-pr-36 flex flex-row justify-between">
+                    <div id="ter-open" class="p-2 rounded-t-md bg-black w-60 flex flex-row flex-nowrap justify-between">
+                        <div class="flex flex-row text-xs font-semibold">
+                            <img class="w-4 mr-2" src="./ps.svg"/>
+                            Windows PowerShell
+                        </div>
+                        <div class="text-xs">
+                            &#10006;
+                        </div>
+                    </div>
+                    <div id="ter-buttons flex flex-col">
+                        <div class="flex-row justify-between font-light">
+                            <span style="color:whitesmoke;" class="mr-2">&#128469;&#xFE0E;</span> 
+                            <span style="color:whitesmoke;" class="m-2">&#128470;&#xFE0E; </span>
+                            <span style="color:whitesmoke;" class="ml-2">&#128473;&#xFE0E;</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="ter-body" class="min-w-3/4 bg-black min-h-full border-l border-l-gray-700 border-r border-r-gray-700 border-b border-b-gray-700 p-2 font-myfont text-zinc-300 flex flex-row">
+                    <p>PS C:\Users\mewael> <span class="typing-demo top-10 text-yellow-200">.\home.ps</span></p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

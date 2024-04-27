@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "./dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+    "prettier": "npx prettier --write '**/*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mewaeltsegay/portfolio.git"
+  },
+  "keywords": [
+    "mewaeltsegay"
+  ],
+  "author": "Mewael Tsegay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mewaeltsegay/portfolio/issues"
+  },
+  "homepage": "https://github.com/mewaeltsegay/portfolio#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3"
+  }
+}
